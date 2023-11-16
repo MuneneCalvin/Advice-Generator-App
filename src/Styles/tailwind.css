@@ -1,0 +1,27 @@
+/* src/styles/tailwind.css */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+    font-family: "Manrope", sans-serif;
+}
+
+.custom-width {
+    width: 550px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.glow-on-hover {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.glow-on-hover:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+}
