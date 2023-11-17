@@ -1,7 +1,13 @@
-export default function App() {
+import AdviceContainer from "./Components/adviceContainer";
+import Footer from "./Components/Footer";
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <AdviceContainer />
+      <Footer />
+    </>
   )
 }
+
+export default App
